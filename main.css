@@ -89,15 +89,15 @@ input:focus{
 }
 
 .main img{
-	width: 296px;
-	margin: auto;
+	width: 270px;
+	margin: 2rem;
 }
 
 input[type=text]{
 	width: 525px;
 	height: 27px;
 	font-size: 15px;
-	border: 1px solid #DCDCDC;
+	border: 1px solid #dcdcdc;
 }
 
 button{
@@ -105,11 +105,12 @@ button{
 	border: 1px solid #dcdcdc;
 	font-size: 11px;
 	color: #444;
-	font-family: 'Lucida Grande';
+	font-family: arial,sans-serif;
+	font-color: gray;
 	font-weight: bold;
 	line-height: 29px;
 	padding: 0 8px;
-	margin: 16px 8px;
+	margin: 30px 2px;
 	border-radius: 1px;
 }
 
@@ -129,20 +130,25 @@ footer ul{
 	margin: 0;
 	vertical-align: middle;
 	line-height: 20px;
+
 }
 
 
 footer ul li{
 	display: inline-block;
+	margin-right: 10px;
 
 }
 
 .left-list{
 	float: left;
+	margin-top: -3px;
 }
 
 .right-list{
 	float: right;
+	margin-right: 10px;
+	margin-top: -3px;
 }
 
 footer li{
